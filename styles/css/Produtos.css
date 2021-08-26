@@ -1,0 +1,20 @@
+header#colorNav {
+    background: #42984F;
+    opacity: 1;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+a#fs14 {
+    font-size: 14px;
+    padding: 0;
+}
+
+header#fundo {
+    position: absolute;
+    width: 1920px;
+    height: 665.58px;
+    background: linear-gradient(180deg, #43bf58 0%, #42984f 23%);
+    background-color: #43bf58;
+
+}

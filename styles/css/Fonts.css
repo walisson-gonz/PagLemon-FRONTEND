@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'monts900';
+    src: url(/styles/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: 'monts800';
+    src: url(/styles/fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'monts500';
+    src: url(/styles/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'monts700';
+    src: url(/styles/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'lato400';
+    src: url(/styles/fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'lato700';
+    src: url(/styles/fonts/Lato-Bold.ttf);
+}
+
+h1#lemon {
+    font-family: 'monts900';
+    font-size: 65px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1E1E1E;
+}
+
+h2#text2 {
+    font-family: 'monts800';
+    font-size: 35px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1E1E1E;
+    width: 450px;
+}
+
+h3#text3 {
+    font-family: 'monts500';
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #1E1E1E;
+    width: 580px;
+}
+
+h4#text4 {
+    font-family: 'monts500';
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #1E1E1E;
+}
+
+h4#text5 {
+    font-family: 'monts700';
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #1E1E1E;
+}
+
+h1#text6 {
+    font-family: 'monts900';
+    font-size: 75px;
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: 370px;
+}
+h2#text7{
+    font-family: 'monts900';
+    font-size: 60px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: 480px;
+}
+
+h4#text8 {
+    font-family: 'monts500';
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 590px;
+}
+
+h4#text9 {
+    font-family: 'monts700';
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+p#textProd{
+    font-family: 'monts700';
+    font-size: 20px;
+    width: 270px;
+    margin: 0%;
+    padding-top: 40px;
+}
+
+dt#footer1{
+font-family: 'monts700';
+font-size: 14px;
+color: #FFFFFF;
+padding-bottom: 6%;
+margin: 0%;
+}
+dd#footer2{
+    font-family: 'monts500';
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 6%;
+    margin:0%;
+}
+p#footer3{
+    font-family: 'lato400';
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-left: 300px;
+}
+p#footer4{
+font-family: 'lato700';
+font-size: 16px;
+color: #00E5FF;
+}
