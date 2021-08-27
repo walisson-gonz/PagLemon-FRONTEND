@@ -11,10 +11,17 @@ a#fs14 {
 }
 
 header#fundo {
-    position: absolute;
-    width: 1920px;
-    height: 665.58px;
-    background: linear-gradient(180deg, #43bf58 0%, #42984f 23%);
-    background-color: #43bf58;
+    min-width:none ;
+    min-height: auto;
+    max-height: 666px;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-42984f) 0%, #43BF58 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #42984F 0%, #43BF58 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
 
+p#line1{
+    margin: 0%;
+    padding: 0%;
+    width: 50px;
+    height: 5px;
 }

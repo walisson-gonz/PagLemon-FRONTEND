@@ -17,10 +17,12 @@
     font-family: 'monts700';
     src: url(/styles/fonts/Montserrat-Bold.ttf);
 }
+
 @font-face {
     font-family: 'lato400';
     src: url(/styles/fonts/Lato-Regular.ttf);
 }
+
 @font-face {
     font-family: 'lato700';
     src: url(/styles/fonts/Lato-Bold.ttf);
@@ -71,13 +73,13 @@ h4#text5 {
 h1#text6 {
     font-family: 'monts900';
     font-size: 75px;
-    
     text-align: left;
     letter-spacing: 0px;
     color: #FFFFFF;
     width: 370px;
 }
-h2#text7{
+
+h2#text7 {
     font-family: 'monts900';
     font-size: 60px;
     text-align: left;
@@ -104,7 +106,8 @@ h4#text9 {
     color: #FFFFFF;
     opacity: 1;
 }
-p#textProd{
+
+p#textProd {
     font-family: 'monts700';
     font-size: 20px;
     width: 270px;
@@ -112,28 +115,71 @@ p#textProd{
     padding-top: 40px;
 }
 
-dt#footer1{
-font-family: 'monts700';
-font-size: 14px;
-color: #FFFFFF;
-padding-bottom: 6%;
-margin: 0%;
+dt#footer1 {
+    font-family: 'monts700';
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 6%;
+    margin: 0%;
 }
-dd#footer2{
+
+dd#footer2 {
     font-family: 'monts500';
     font-size: 14px;
     color: #FFFFFF;
     padding-bottom: 6%;
-    margin:0%;
+    margin: 0%;
 }
-p#footer3{
+
+p#footer3 {
     font-family: 'lato400';
     font-size: 16px;
     color: #FFFFFF;
     padding-left: 300px;
 }
-p#footer4{
-font-family: 'lato700';
-font-size: 16px;
-color: #00E5FF;
+
+p#footer4 {
+    font-family: 'lato700';
+    font-size: 16px;
+    color: #00E5FF;
+}
+
+a#linkHome {
+    font-family: 'monts500';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+p#text1 {
+    font-family: 'monts700';
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+p#text2 {
+    font-family: 'monts900';
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+p#text3 {
+    font: normal normal 20px/24px 'monts500';
+    color: #FFFFFF;
+}
+
+p#navList {
+    font-family: 'monts700';
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1E1E1E;
+    opacity: 1;
+    margin: 0%;
+}
+p#navList2{
+    font-family: 'monts500';
+    font-size: 20px;
+    margin: 0%;
 }
