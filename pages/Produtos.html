@@ -44,7 +44,7 @@
                 <!-- ============================ -->
                 <div class="container pe-xxl-3">
                     <div class="row">
-                        <div class="col-12 d-flex align-items-center ">
+                        <div class="col-12 col-xxl-12 d-flex align-items-center ">
 
                             <div class="col-3 col-xxl-2 d-flex justify-content-end py-2">
                                 <img src="/images/logo-150-100.png">
@@ -124,127 +124,216 @@
                 <!-- =========================================== -->
                 <div class="container p-0">
                     <header class="row">
-                        <section class="col-12">
-                            <nav class="pt-5">
-                                <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active bg-success " id="home-tab" id="navList"
-                                            data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
-                                            aria-controls="home" aria-selected="true">
-                                            <p class="m-0 text-light" id="navList">Tabela Nutricional</p>
-                                        </button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                            data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
-                                            aria-selected="false">
-                                            <p class="m-0" id="navList">Ingredientes</p>
-                                        </button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
-                                            data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
-                                            aria-selected="false">
-                                            <p class="m-0" id="navList">Ficha Técnica</p>
-                                        </button>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">
-                                        <table class="table">
-                                            <thead class="pt-5 col-11 d-flex ">
-                                                <tr class="col-8 d-flex bg-success">
-                                                    <th scope="col" colspan="2" class="col-12 d-flex me-3 border-0">
-                                                        <section class="d-flex">
-                                                            <p class="" id="navList">Quantidade por porção -</p>
-                                                            <p class="" id="navList">200 mL (1 copo)</p>
-                                                        </section>
-                                                    </th>
-                                                    <th scope="col" class="col-4 d-flex justify-content-center bg-success border-0">
-                                                        <section class="col-4 d-flex justify-content-center">
-                                                            <p id="navList">%VD(*)</p>
-                                                        </section>
-                                                    </th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="pt-2 col-12 d-flex flex-column" >
-                                                <tr class="col-9 d-flex justify-content-between border-bottom">
-                                                    <th scope="row">
-                                                        <p id="navList">Valor Energético</p>
-                                                    </th>
-                                                    <td>
-                                                        <p id="navList2">60 Kcal/253 KJ</p>
-                                                    </td>
-                                                    <td>
-                                                        <p id="navList2">3%</p>
-                                                    </td>
-                                                </tr>
 
-                                                <tr class="col-9 d-flex justify-content-between border-bottom">
-                                                    <th scope="row" class="">
-                                                        <p id="navList">Carboidratos</p>
-                                                    </th>
-                                                    <td>
-                                                        <p id="navList2">15 g</p>
-                                                    </td>
-                                                    <td>
-                                                        <p id="navList2">5%</p>
-                                                    </td>
-                                                </tr>
+                        <nav class="pt-5 mx-md-5">
+                            <ul class="nav nav-tabs justify-content-center border-0" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active bg-success " id="home-tab" id="navList"
+                                        data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+                                        aria-controls="home" aria-selected="true">
+                                        <p class="m-0 text-light" id="navList">Tabela Nutricional</p>
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                                        aria-selected="false">
+                                        <p class="m-0" id="navList">Ingredientes</p>
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
+                                        aria-selected="false">
+                                        <p class="m-0" id="navList">Ficha Técnica</p>
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <table class="table">
+                                        <thead class="pt-5 col-12  d-flex ">
+                                            <tr class="col-8 d-flex bg-success">
+                                                <th scope="col" colspan="2" class="col-12 d-flex me-3 border-0">
+                                                    <section class="d-flex">
+                                                        <p class="" id="navList">Quantidade por porção -</p>
+                                                        <p class="" id="navList">200 mL (1 copo)</p>
+                                                    </section>
+                                                </th>
+                                                <th scope="col"
+                                                    class="col-4 d-flex justify-content-center bg-success border-0">
+                                                    <section class="col-4 d-flex justify-content-center ps-4">
+                                                        <p id="navList">%VD(*)</p>
+                                                    </section>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="pt-2 col-11 d-flex flex-column justify-content-between">
+                                            <tr class="col-12 d-flex  border-bottom">
+                                                <th scope="row" class="border-0 col-5">
+                                                    <p id="navList">Valor Energético</p>
+                                                </th>
+                                                <td class="border-0 col-4">
+                                                    <p id="navList2">60 Kcal/253 KJ</p>
+                                                </td>
+                                                <td class="border-0 col-3 d-flex justify-content-center">
+                                                    <p id="navList2">3%</p>
+                                                </td>
+                                            </tr>
 
-                                                <tr class="col-9 d-flex justify-content-between border-bottom">
-                                                    <th scope="row">
-                                                        <p id="navList" class="pe-4">Açúcares</p>
-                                                    </th>
-                                                    <td>
-                                                        <p id="navList2" class="ps-3">15 g</p>
-                                                    </td>
-                                                    <td>
-                                                        <p id="navList2" class="pe-3">0</p>
-                                                    </td>
-                                                </tr>
+                                            <tr class="col-12 d-flex border-bottom">
+                                                <th scope="row" class="border-0 col-5">
+                                                    <p id="navList">Carboidratos</p>
+                                                </th>
+                                                <td class="border-0 col-4">
+                                                    <p id="navList2">15 g</p>
+                                                </td>
+                                                <td class="border-0 col-3 d-flex justify-content-center">
+                                                    <p id="navList2">5%</p>
+                                                </td>
+                                            </tr>
 
-                                                <tr class="col-9 d-flex justify-content-between border-bottom">
-                                                    <th scope="row">
-                                                        <p id="navList" class="pe-5">Sódio</p>
-                                                    </th>
-                                                    <td>
-                                                        <p id="navList2" class="ps-5">0 mg</p>
-                                                    </td>
-                                                    <td>
-                                                        <p id="navList2" class="pe-3">**</p>
-                                                    </td>
-                                                </tr>
+                                            <tr class="col-12 d-flex border-bottom">
+                                                <th scope="row" class="border-0 col-5">
+                                                    <p id="navList">Açúcares</p>
+                                                </th>
+                                                <td class="border-0 col-4">
+                                                    <p id="navList2">15 g</p>
+                                                </td>
+                                                <td class="border-0 col-3 d-flex justify-content-center pe-3">
+                                                    <p id="navList2" class="pe-1">0</p>
+                                                </td>
+                                            </tr>
 
-                                                <tr class="col-9 d-flex justify-content-between border-bottom">
-                                                    <th scope="row" class="">
-                                                        <p id="navList" class="pe-5">Potássio</p>
-                                                    </th>
-                                                    <td>
-                                                        <p id="navList2" class="ps-4">31 mg</p>
-                                                    </td>
-                                                    <td>
-                                                        <p id="navList2" class="pe-3">**</p>
-                                                    </td>
-                                                </tr>
+                                            <tr class="col-12 d-flex  border-bottom">
+                                                <th scope="row" class="border-0 col-5">
+                                                    <p id="navList">Sódio</p>
+                                                </th>
+                                                <td class="border-0 col-4">
+                                                    <p id="navList2">0 mg</p>
+                                                </td>
+                                                <td class="border-0 col-3 d-flex justify-content-center pe-3">
+                                                    <p id="navList2" class="pe-1">**</p>
+                                                </td>
+                                            </tr>
 
-                                            </tbody>
-                                        </table>
+                                            <tr class="col-12 d-flex border-bottom">
+                                                <th scope="row" class="border-0 col-5">
+                                                    <p id="navList">Potássio</p>
+                                                </th>
+                                                <td class="border-0 col-4">
+                                                    <p id="navList2">31 mg</p>
+                                                </td>
+                                                <td class="border-0 col-3 d-flex justify-content-center pe-3">
+                                                    <p id="navList2" class="pe-1">**</p>
+                                                </td>
+                                            </tr>
 
-                                    </div>
+                                        </tbody>
+                                    </table>
 
-                                    <!-- <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab"></div>
-
-                                    <div class="tab-pane fade" id="contact" role="tabpanel"
-                                        aria-labelledby="contact-tab"></div> -->
                                 </div>
-                            </nav>
-                        </section>
+
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <p id="navList">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique,
+                                        voluptas. Nesciunt, explicabo sunt. Quod voluptatibus pariatur voluptatum neque
+                                        quia minus magni, accusantium alias rem rerum sapiente animi nulla corrupti
+                                        repellendus.</p>
+                                </div>
+
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    <p id="navList">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+                                        nihil quam, praesentium quibusdam illo odio officiis vero, reprehenderit
+                                        incidunt id error ea necessitatibus at possimus. Perferendis architecto eligendi
+                                        doloribus quos?</p>
+                                </div>
+                            </div>
+                        </nav>
                     </header>
                 </div>
 
+                <!-- =============================Roda Pé-links============================ -->
+                <div class=" row p-0" style="background-color: #3C3D41;">
+
+                    <div class="container">
+                        <header class="row">
+                            <section class="col-xxl-12 d-flex pt-5 pb-4 ">
+                                <div class="col-3 d-flex justify-content-center">
+                                    <ul class="p-0 pe-3">
+                                        <dt id="footer1" class="pb-3">INSTITUCIONAL</dt>
+                                        <dd id="footer2" class="pb-3">Quem Somos</dd>
+                                        <dd id="footer2" class="pb-3">Produtos</dd>
+                                        <dd id="footer2" class="pb-3">Contato</dd>
+                                    </ul>
+                                </div>
+
+                                <div class="col-3">
+                                    <ul>
+                                        <dt id="footer1">NOSSOS PRODUTOS</dt>
+                                        <dd id="footer2">Geleia de limão</dd>
+                                        <dd id="footer2">Suco de limão</dd>
+                                        <dd id="footer2">Refrigerante de limão</dd>
+                                        <dd id="footer2">Tortinha de limão</dd>
+                                        <dd id="footer2">Bolo de limão</dd>
+                                        <dd id="footer2" class="p-0">Barrinha de limão</dd>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-3 d-flex">
+                                    <ul class="">
+                                        <dd style="color: #3C3D41;">.</dd>
+                                        <dd><img src="/images/maps-and-flags-fff.png" alt="" class="pt-1 pe-2"></dd>
+                                        <dd style="color: #3C3D41;" class="p-0 m-0">.</dd>
+                                        <dd style="color: #3C3D41;" class="p-0 m-0">.</dd>
+                                        <dd><img src="/images/whatsapp-logo.png" alt="" class="pb-1"></dd>
+                                        <dd><img src="/images/mail.png" alt="" class="pt-1"></dd>
+                                    </ul>
+                                    <ul class="p-0">
+                                        <dt id="footer1">CONTATO & ENDEREÇO</dt>
+                                        <dd id="footer2">Avenida México, 688 - Jardim Primavera <div></div>São José do
+                                            Rio Preto - SP</dd>
+                                        <dd id="footer2">(17) 3022-3715</dd>
+                                        <dd id="footer2">COMERCIAL@LEMON.COM.BR</dd>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-3">
+                                    <ul>
+                                        <dt id="footer1">SOBRE</dt>
+                                        <dd id="footer2">A Lemon é uma empresa que atua desde 1995 na comercialização de
+                                            produtos derivados da fruta limão. Nosso grande diferencial é a qualidade e
+                                            o carinho que colocamos na produção de cada um de nossos produtos.</dd>
+                                    </ul>
+                                </div>
+
+                            </section>
+                        </header>
+                    </div>
+                </div>
+                <!-- =============================//Roda Pé-links\\============================ -->
+
+                <!-- =============================\\Roda Pé-direitos//============================ -->
+                <div class="container-fluid p-0 ">
+                    <header class="row" id="colorNav">
+                        <section class="col-xxl-12 d-flex align-items-center">
+                            <section class="col-xxl-7 d-flex align-items-center justify-content-center">
+                                <p id="footer3" class="pe-1 m-0">2020 © LEMON EXAMPLE. Todos os direitos reservados.
+                                    Desenvolvimento</p>
+                                <p id="footer4" class="m-0">Eco Webdesign</p>
+                            </section>
+
+                            <section class="col-xxl-5 d-flex justify-content-center">
+                                <img style="padding-left: 110px;" src="/images/Imagem 2.png" alt="">
+                                <img src="/images/Imagem 1.png" alt="" class="ps-2">
+                            </section>
+
+                        </section>
+                    </header>
+                </div>
+                <!-- =============================//Roda Pé-direitos\\============================ -->
             </section>
         </header>
     </div>
