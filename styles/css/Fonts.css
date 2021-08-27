@@ -183,3 +183,14 @@ p#navList2{
     font-size: 20px;
     margin: 0%;
 }
+p#fs75{
+    font-family: 'monts900';
+    font-size: 75px;
+    text-align: left;
+    margin: 0%;
+}
+p#fs25{
+    font-family: 'monts700';
+    font-size: 25px;
+    margin: 0%;
+}

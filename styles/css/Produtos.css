@@ -11,17 +11,20 @@ a#fs14 {
 }
 
 header#fundo {
-    min-width:none ;
-    min-height: auto;
-    max-height: 666px;
-    background: transparent linear-gradient(180deg, var(--unnamed-color-42984f) 0%, #43BF58 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(180deg, #42984F 0%, #43BF58 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(10deg, rgba(255, 255, 255, 1) 36%, rgba(67, 191, 88, 1) 37%, rgba(66, 152, 79, 1) 86%);
 }
 
-p#line1{
+p#line1 {
     margin: 0%;
     padding: 0%;
     width: 50px;
     height: 5px;
+}
+
+div#parallax {
+    min-height: 400px;
+    background-image: url("/images/Grupo-20.png");
+    background-attachment: fixed;
+    background-position: bottom;
 }
