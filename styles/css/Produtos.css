@@ -22,7 +22,7 @@ p#line1 {
     height: 5px;
 }
 
-div#parallax {
+header#parallax {
     min-height: 400px;
     background-image: url("/images/Grupo-20.png");
     background-attachment: fixed;

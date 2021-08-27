@@ -9,23 +9,23 @@
 }
 
 @font-face {
-    font-family: 'monts500';
-    src: url(/styles/fonts/Montserrat-Medium.ttf);
-}
-
-@font-face {
     font-family: 'monts700';
     src: url(/styles/fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
-    font-family: 'lato400';
-    src: url(/styles/fonts/Lato-Regular.ttf);
+    font-family: 'monts500';
+    src: url(/styles/fonts/Montserrat-Medium.ttf);
 }
 
 @font-face {
     font-family: 'lato700';
     src: url(/styles/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'lato400';
+    src: url(/styles/fonts/Lato-Regular.ttf);
 }
 
 h1#lemon {
@@ -178,19 +178,26 @@ p#navList {
     opacity: 1;
     margin: 0%;
 }
-p#navList2{
+
+p#navList2 {
     font-family: 'monts500';
     font-size: 20px;
     margin: 0%;
 }
-p#fs75{
+
+p#fs75 {
     font-family: 'monts900';
     font-size: 75px;
     text-align: left;
     margin: 0%;
 }
-p#fs25{
+
+p#fs25 {
     font-family: 'monts700';
     font-size: 25px;
     margin: 0%;
+}
+h1#fs35{
+    font-family: 'monts700';
+    font-size: 35pt;
 }

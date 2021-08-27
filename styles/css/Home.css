@@ -3,18 +3,20 @@ header#colorNav {
     opacity: 1;
     height: 40px;
 }
-a#fs14{
-font-size: 14px;
-padding: 0;
+
+a#fs14 {
+    font-size: 14px;
+    padding: 0;
 }
 
-p#line1{
+p#line1 {
     margin: 0%;
     padding: 0%;
     width: 50px;
     height: 5px;
 }
-span#circle{
+
+span#circle {
     width: 50px;
     height: 50px;
     font-size: 30px;
@@ -23,12 +25,10 @@ span#circle{
 }
 
 section#fundo {
-    
     background-image: url("/images/fundo-23.png");
     opacity: 1;
     background-repeat: no-repeat;
-    height:822px;
-    width: 100%;
+    min-height: 822px;
 }
 
 header#caixaText {
@@ -37,7 +37,8 @@ header#caixaText {
     width: 527px;
     height: 591px;
 }
-p#line2{
+
+p#line2 {
     margin: 0%;
     padding: 0%;
     width: 150px;
@@ -49,12 +50,12 @@ div#fundo2 {
     height: 623px;
 }
 
-img#prod{
+img#prod {
     width: 270px;
     height: 270px;
 }
 
-ul#footer{
+ul#footer {
     font-family: 'monts500';
     font-size: 14px;
     color: #FFFFFF;
